@@ -11,13 +11,10 @@ def sortkey(x):
     return (len(x), x)
 
 COLOURS = dict(A="#EEAAAA", B="#DDBB99", C="#CCCC88",
-            J="#BBDD99", K="#AAEEAA", L="#99DDBB",
-            U="#88CCCC", V="#99BBDD", W="#AAAAEE",
-            X="#BB99DD", Y="#CC88CC", Z="#DD99BB")
+            D="#BBDD99", E="#AAEEAA", F="#99DDBB",
+            G="#88CCCC", J="#99BBDD", K="#AAAAEE",
+            L="#BB99DD", M="#CC88CC", H="#DD99BB")
 
-# date=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
-# number = st.selectbox("Select Date",date)
-# number=int(number)
 tithi=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
 tithi_ = st.selectbox("Select tithi",tithi)
 tithi_selected=int(tithi_)
